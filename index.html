@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Me</title>
+
+<style>
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+font-family: Times New Roman, serif;
+/*overflow: hidden;*/
+}
+
+#blackbox {
+background-color: #140005;
+height: 13800px;
+width: 840px;
+position: absolute;
+left: 0px;
+top: 0px;
+}
+
+div.questions {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 300px;
+	padding: 50px;
+	margin-top: 800px;
+	font-size: 19px;
+	color: white;
+	/*background-color: yellow;*/
+}
+
+.one {
+	color: #140005;
+	background-color: white;
+	margin-left: 832px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	margin-top: -12000px;
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.two {
+	color: #140005;
+	background-color: white;
+	margin-left: 1043px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	/*margin-top: -10000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.three {
+	color: #140005;
+	background-color: white;
+	margin-left: 832px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 100px;
+	/*margin-top: -8000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.four {
+	color: #140005;
+	background-color: white;
+	margin-left: 1043px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 100px;
+	/*margin-top: -6000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.five {
+	color: #140005;
+	background-color: white;
+	margin-left: 832px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 200px;
+	/*margin-top: -4000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.six {
+	color: #140005;
+	background-color: white;
+	margin-left: 1043px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 200px;
+	/*margin-top: -2000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.seven {
+	color: #140005;
+	background-color: white;
+	margin-left: 832px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 300px;
+	/*margin-top: 0px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.eight {
+	color: #140005;
+	background-color: white;
+	margin-left: 1043px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 300px;
+	/*margin-top: 2000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.nine {
+	color: #140005;
+	background-color: white;
+	margin-left: 832px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 400px;
+	/*margin-top: 4000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.ten {
+	color: #140005;
+	background-color: white;
+	margin-left: 1043px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 400px;
+	/*margin-top: 6000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.eleven {
+	color: #140005;
+	background-color: white;
+	margin-left: 832px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 500px;
+	/*margin-top: 8000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.twelve {
+	color: #140005;
+	background-color: white;
+	margin-left: 1043px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 500px;
+	/*margin-top: 10000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.thirteen {
+	color: #140005;
+	background-color: white;
+	margin-left: 832px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 600px;
+	/*margin-top: 12000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+.fourteen {
+	color: #140005;
+	background-color: white;
+	margin-left: 1043px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 600px;
+	/*margin-top: 14000px;*/
+	font-size: 72px;
+	width: 212px;
+	height: 100px;
+}
+
+img {
+	scale: 50%;
+	position: fixed;
+	left: 600px;
+	top: -330px;
+	z-index: -1;
+}
+
+p#where {
+	margin-left: 60px;
+	margin-top: 1000px;
+	padding-bottom: 50px;
+	z-index: 2;
+	font-size: 32px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+#statement {
+color: white;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+#no_1 {
+	position: absolute;
+	margin-top: 1000px;
+	margin-left: 840px;
+	color: black;
+	z-index: 2;
+}
+
+#no_2 {
+	position: absolute;
+	margin-top: 2200px;
+	margin-left: 840px;
+	color: black;
+	z-index: 2;
+}
+
+#no_3 {
+	position: absolute;
+	margin-top: 2900px;
+	margin-left: 840px;
+	color: black;
+	z-index: 2;
+}
+
+#no_4 {
+	position: absolute;
+	margin-top: 4000px;
+	margin-left: 840px;
+	color: black;
+	z-index: 2;
+}
+
+#no_5 {
+	position: absolute;
+	margin-top: 4700px;
+	margin-left: 840px;
+	color: black;
+	z-index: 2;
+}
+
+#no_6 {
+	position: absolute;
+	margin-top: 11500px;
+	margin-left: 840px;
+	color: black;
+	z-index: 2;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<a href="me_2.html" id="no_1">I'm not trying to make you worried...</a>
+
+<a href="me_2.html" id="no_2">I don't think I've done anything...</a>
+
+<a href="me_2.html" id="no_3">I don't want this...</a>
+
+<a href="me_2.html" id="no_4">...</a>
+
+<a href="me_2.html" id="no_5">I think I'm struggling...</a>
+
+<p id="no_6">I guess they're doing it out of love...</p>
+
+
+<div id="blackbox"></div>
+
+<a href="statement.html" id="statement">Statement</a>
+
+<img src ="me.jpg" alt="drawing of a person" id="me">
+
+<div class="questions">Be good at school okay?</div>
+
+<div class="questions">Don't make us worried okay?</div>
+
+<div class="questions">Don't let us down okay?</div>
+
+<div class="questions">We moved here for you you know?</div>
+
+<div class="questions">You understand us?</div>
+
+<div class="questions">Are your grades good?</div>
+
+<div class="questions">Don't let us down okay?</div>
+
+<div class="questions">You know we invested a lot into you?</div>
+
+<div class="questions">We're doing this so you can thank us one day you know?</div>
+
+<div class="questions">There are people who can't afford food you know?</div>
+
+<div class="questions">We sacrificed a lot for you you know?</div>
+
+<div class="questions">Did you know we never had it as good as you do?</div>
+
+<div class="questions">We love you more than anything you know that?</div>
+
+<div class="questions">We're doing our best you know?</div>
+
+<div class="one">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="two">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="three">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="four">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="five">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="six">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="seven">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="eight">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="nine">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="ten">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="eleven">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="twelve">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="thirteen">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="fourteen">yea</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="where">Whew, they're finally gone. But where did I go...?</p>
+
+</body>
+</html>
